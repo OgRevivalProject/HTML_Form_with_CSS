@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML Form with CSS</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Student Survey</h1>
+
+<form action="results.html" method="GET">
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Password</label>
+<input type="password" name="password">
+
+<label>Age</label>
+<input type="number" name="age">
+
+<label>Date</label>
+<input type="date" name="date">
+
+<label>Favorite Language</label>
+<select name="language">
+  <option>JavaScript</option>
+  <option>HTML</option>
+  <option>CSS</option>
+  <option>Python</option>
+</select>
+
+<label>Experience Level</label>
+<div class="inline">
+<input type="radio" name="level" value="Beginner"> Beginner
+<input type="radio" name="level" value="Intermediate"> Intermediate
+<input type="radio" name="level" value="Advanced"> Advanced
+</div>
+
+<label>Skills</label>
+<div class="inline">
+<input type="checkbox" name="skills" value="Design"> Design
+<input type="checkbox" name="skills" value="Coding"> Coding
+<input type="checkbox" name="skills" value="Debugging"> Debugging
+</div>
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
