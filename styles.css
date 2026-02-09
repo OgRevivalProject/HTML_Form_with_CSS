@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  background: #222;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+form, #results {
+  background: #333;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inline {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  background: steelblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2b5f8a;
+}
+
+a.back {
+  display: block;
+  text-align: center;
+  color: lightblue;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a.back:hover {
+  text-decoration: underline;
+}
